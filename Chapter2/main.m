@@ -13,9 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        int sum;
-        sum = 25 + 50;
-        NSLog(@ "The value of the sum is: %i",sum);
+        int value1, value2, sum;
+        value1 = 25;
+        value2 = 50;
+        sum = value1 + value2;
+        
+        NSLog(@ "The sum of %i, and %i is %i. ",value1, value2, sum);
         
     }
     return 0;
