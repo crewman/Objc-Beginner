@@ -13,9 +13,9 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World, no really!\n testing!");
-        NSLog(@"This here's my boomstick!");
+        int sum;
+        sum = 25 + 50;
+        NSLog(@ "The value of the sum is: %i",sum);
         
     }
     return 0;
